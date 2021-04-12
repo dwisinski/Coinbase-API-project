@@ -1,16 +1,15 @@
 # Coinbase-API-project
 ## Dave Wisinski
 ## April 2021
-<br>
 
 ### Task 1.1:
-Download a full day of production trade history for BTC/USD from exchange: Coinbase Pro - "https://docs.pro.coinbase.com". Endpoint: GET "/products/<product-id>/candles" (make sure this is the raw trade data). Store the data in a DataFrame.
+Download a full day of production trade history for BTC/USD from exchange: Coinbase Pro - "https://docs.pro.coinbase.com". Endpoint: GET "/products/\<product-id>/candles" (make sure this is the raw trade data). Store the data in a DataFrame.
 
 Produce a report for the dataset showing hourly bars of:
 open, high, low, close, change, and trade volume.
 
 ### Task 1.2:
-Download a full day of production trade history of ETH/BTC exchange: Coinbase Pro - "https://docs.pro.coinbase.com". Endpoint: GET "/products/<product-id>/trades" (make sure this is the raw trade data). Store the data in a DataFrame.
+Download a full day of production trade history of ETH/BTC exchange: Coinbase Pro - "https://docs.pro.coinbase.com". Endpoint: GET "/products/\<product-id>/trades" (make sure this is the raw trade data). Store the data in a DataFrame.
 
 Produce a report for ETH/BTC showing notional volume in USD.
 
